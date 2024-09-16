@@ -52,19 +52,19 @@ def calculadora_geometrica():
 
         if opcion == 1:
             radio = float(input("Introduce el radio en cm del círculo: "))
-            print(f"Área: {area_circulo(radio)}")
-            print(f"Perímetro: {perimetro_circulo(radio)}")
+            print(f"Área: {convertir(area_circulo(radio))} m^2")
+            print(f"Perímetro: {convertir(perimetro_circulo(radio))} m")
         
         elif opcion == 2:
             lado = float(input("Introduce el lado en cm del cuadrado: "))
-            print(f"Área: {area_cuadrado(lado)}")
-            print(f"Perímetro: {perimetro_cuadrado(lado)}")
+            print(f"Área: {convertir(area_cuadrado(lado))} m^2")
+            print(f"Perímetro: {convertir(perimetro_cuadrado(lado))} m")
 
         elif opcion == 3:
             base = float(input("Introduce la base en cm del rectángulo: "))
             altura = float(input("Introduce la altura en cm del rectángulo: "))
-            print(f"Área: {area_rectangulo(base, altura)}")
-            print(f"Perímetro: {perimetro_rectangulo(base, altura)}")
+            print(f"Área: {convertir(area_rectangulo(base, altura))} m^2")
+            print(f"Perímetro: {convertir(perimetro_rectangulo(base, altura))} m")
 
         elif opcion == 4:
             base = float(input("Introduce la base en cm del triángulo: "))
@@ -72,15 +72,15 @@ def calculadora_geometrica():
             lado1 = float(input("Introduce el primer lado en cm del triángulo: "))
             lado2 = float(input("Introduce el segundo lado en cm del triángulo: "))
             lado3 = float(input("Introduce el tercer lado en cm del triángulo: "))
-            print(f"Área: {area_triangulo(base, altura)}")
-            print(f"Perímetro: {perimetro_triangulo(lado1, lado2, lado3)}")
+            print(f"Área: {convertir(area_triangulo(base, altura))} m^2")
+            print(f"Perímetro: {convertir(perimetro_triangulo(lado1, lado2, lado3))} m")
 
         elif opcion == 5:
             n = int(input("Introduce el numero de lados del poligono: "))
             base = float(input("Introduce la base en cm del poligono: "))
             a = float(input("Introduce el apotema en cm del poligono: "))
-            print(f"Área: {area_poligono(base,n,a)}")
-            print(f"Perímetro: {perimetro_poligono(base,n)}")
+            print(f"Área: {convertir(area_poligono(base,n,a))} m^2")
+            print(f"Perímetro: {convertir(perimetro_poligono(base,n))} m")
 
 
 
