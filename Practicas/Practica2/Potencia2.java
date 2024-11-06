@@ -18,6 +18,7 @@ public class Potencia2 {
         }
         System.out.print("Tu numero es: "+num+"\n");
         System.out.print("La potencia mas cercana es: 2^"+count+" = "+Math.pow(2,count)+"\n");
+        scanner.close();
     }
    
 }

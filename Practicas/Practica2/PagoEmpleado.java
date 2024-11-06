@@ -33,7 +33,7 @@ public class PagoEmpleado {
         System.out.print("Numero de hrs extra: "+hrx+"\n");
         System.out.print("Paga extra: "+ sueldoExtra(sueldo,hrx)+"\n");
         System.out.print("Paga Total: "+(sueldoNormal(sueldo,hr-hrx)+sueldoExtra(sueldo,hrx))+"\n");
-       
+        scanner.close();
     }
    
     public static void main(String[] args) {

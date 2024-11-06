@@ -25,7 +25,7 @@ public class Coordenadas {
         y = scanner.nextDouble();
         cuadrante(x,y);
         System.out.println("-------------");
-       
+        scanner.close();
      }
    
 }
